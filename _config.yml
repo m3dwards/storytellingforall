@@ -19,5 +19,4 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-source: _source
-destination: _gh_pages
+# source: _source
