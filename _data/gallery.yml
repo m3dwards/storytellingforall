@@ -30,7 +30,7 @@
   thumb: /images/gallery/thumbs/headshot.jpeg
   image: /images/gallery/headshot.jpg
 
-- name: Frog
+- name: Nursery Stories
   thumb: /images/gallery/thumbs/frog.jpeg
   image: /images/gallery/frog.jpg
 
@@ -38,6 +38,3 @@
   thumb: /images/gallery/thumbs/pirate-stories.jpeg
   image: /images/gallery/pirate-stories.jpg
   
-- name: Pirate Tales The Second
-  thumb: /images/gallery/thumbs/pirate-stories.jpeg
-  image: /images/gallery/pirate-stories.jpg  
