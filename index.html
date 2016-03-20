@@ -2,22 +2,110 @@
 layout: default
 ---
 
-<div class="home">
+<div class="section group">
 
-  <h1 class="page-heading">Posts</h1>
+  <div class="col span_4_of_7" id="intro">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    {% capture intro-include %}{% include intro.md %}{% endcapture %}
+    {{ intro-include | markdownify }}
+    
+  </div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <div class="col span_3_of_7" id="intro-img">
+    <div class="figure">
+      <img src="/images/home-cath.jpeg" alt="Cath Edwards - Storytelling for all" />
+    </div>
+  </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+</div>
+
+<hr>
+
+<div class="section" id="home-services">
+
+    <h1>My services</h1>
+
+    <div class="group">
+
+      {% for site_page in site.pages %}
+        {% if site_page.title %}
+          <div class="service-box">
+              <h2><a href="{{ my_page.url | prepend: site.baseurl }}">{{ site_page.title }}</a></h2>
+              <p>{{ site_page.description }}</p>
+              <p><a href="{{ site_page.url | prepend: site.baseurl }}">Read more</a></p>
+          </div>
+        {% endif %}
+      {% endfor %}
+
+    </div>
+
+</div>
+
+<hr>
+
+<div class="section" id="gallery">
+
+    <h1>Gallery</h1>
+
+    <div class="group">
+
+      <div class="gallery-item">
+        <a href="/images/gallery/fiery-fables.jpg" title="Fiery Fables"><img src="/images/gallery/thumbs/fiery-fables.jpeg" alt=""></a>
+        <h3>Fiery Fables</h3>
+      </div>
+
+      <div class="gallery-item">
+        <a href="/images/gallery/winter-ghosts.jpg" title="Winter Ghosts"><img src="/images/gallery/thumbs/winter-ghosts.jpeg" alt=""></a>
+        <h3>Winter Ghosts</h3>
+      </div>
+
+      <div class="gallery-item">
+        <a href="/images/gallery/playdough-stories.jpg" title="Playdough Stories"><img src="/images/gallery/thumbs/playdough-stories.jpeg" alt=""></a>
+        <h3>Playdough Stories</h3>
+      </div>
+
+      <div class="gallery-item">
+        <a href="/images/gallery/calypso-storytelling.jpg" title="Calypso Storytelling"><img src="/images/gallery/thumbs/calypso-storytelling.jpeg" alt=""></a>
+        <h3>Calypso Storytelling</h3>
+      </div>
+
+      <div class="gallery-item">
+        <a href="/images/gallery/family-storytelling.jpg" title="Family Storytelling"><img src="/images/gallery/thumbs/family-storytelling.jpeg" alt=""></a>
+        <h3>Family Storytelling</h3>
+      </div>
+
+      <div class="gallery-item">
+        <a href="/images/gallery/kitchen-garden-cafe.jpg" title="Kitchen Garden Cafe"><img src="/images/gallery/thumbs/kitchen-garden-cafe.jpeg" alt=""></a>
+        <h3>Kitchen Garden Cafe</h3>
+      </div>
+
+      <div class="gallery-item">
+        <a href="/images/gallery/headshot.jpg" title="Cath"><img src="/images/gallery/thumbs/headshot.jpeg" alt=""></a>
+        <h3>Cath</h3>
+      </div>
+
+      <div class="gallery-item">
+        <a href="/images/gallery/frog.jpg" title="Frog"><img src="/images/gallery/thumbs/frog.jpeg" alt=""></a>
+        <h3>Frog</h3>
+      </div>
+
+      <div class="gallery-item">
+        <a href="/images/gallery/pirate-stories.jpg" title="Pirate Tales"><img src="/images/gallery/thumbs/pirate-stories.jpeg" alt=""></a>
+        <h3>Pirate Tales</h3>
+      </div>
+
+    </div>
+
+</div>
+
+<div class="section" id="contact">
+
+    <h1>Contact</h1>
+
+    <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+
+    <p>Phone: {{ site.phone }}</p>
+
+    <p>&nbsp;</p>
 
 </div>
