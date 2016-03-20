@@ -37,3 +37,7 @@
 - name: Pirate Tales
   thumb: /images/gallery/thumbs/pirate-stories.jpeg
   image: /images/gallery/pirate-stories.jpg
+  
+- name: Pirate Tales The Second
+  thumb: /images/gallery/thumbs/pirate-stories.jpeg
+  image: /images/gallery/pirate-stories.jpg  
