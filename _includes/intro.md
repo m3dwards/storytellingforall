@@ -2,7 +2,7 @@
 
 ### Storytelling for all
 
-‘Cath has a warm and witty style of storytelling and she has a wonderful sense of humour.’
+> Cath has a warm and witty style of storytelling and she has a wonderful sense of humour.
 
 My repertoire is largely based on traditional and folk tales. I revel in sourcing stories, making them my own and passing them on so that my audiences can love them as much as I do.
 
