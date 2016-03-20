@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Storytelling Workshops
 description: >
   Something about workshops

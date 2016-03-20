@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Special Needs
 description: >
   Something about special needs

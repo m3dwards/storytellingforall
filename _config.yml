@@ -18,11 +18,3 @@ url: "http://storytellingforall.co.uk" # the base hostname & protocol for your s
 
 # Build settings
 markdown: kramdown
-
-defaults:
-  -
-    scope:
-      path: "services"
-      type: "pages"
-    values:
-      layout: "page"

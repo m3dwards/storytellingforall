@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Storytelling for adults
 description: >
   Something about adults

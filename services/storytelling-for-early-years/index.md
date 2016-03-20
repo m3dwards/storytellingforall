@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Early years
 description: >
   Something about early years

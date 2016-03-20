@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Writing for Children
 description: >
   Something about writing for children

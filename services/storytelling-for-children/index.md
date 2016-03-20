@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Children
 description: >
   Something about Children
