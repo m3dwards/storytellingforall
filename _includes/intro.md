@@ -8,4 +8,4 @@ My repertoire is largely based on traditional and folk tales. I revel in sourcin
 
 I learnt a love of folklore and stories as a small child; as an adult I told stories to my own children, and then, as a teacher, worked with children through story. I now tell stories to adult audiences, family audiences, small children, school-age children and children and young people with special needs.
 
-Learn more [about my services](#services) or [get in touch](#contact) if you want to hire me.
+Learn more [about my services](#home-services) or [get in touch](#contact) if you want to hire me.
