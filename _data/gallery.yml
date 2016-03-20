@@ -1,0 +1,39 @@
+---
+# images for front page
+# thumb images should be about 240 px high
+
+- name: Fiery Fables
+  thumb: /images/gallery/thumbs/fiery-fables.jpeg
+  image: /images/gallery/fiery-fables.jpg
+
+- name: Winter Ghosts
+  thumb: /images/gallery/thumbs/winter-ghosts.jpeg
+  image: /images/gallery/winter-ghosts.jpg
+
+- name: Playdough Stories
+  thumb: /images/gallery/thumbs/playdough-stories.jpeg
+  image: /images/gallery/playdough-stories.jpg
+
+- name: Calypso Storytelling
+  thumb: /images/gallery/thumbs/calypso-storytelling.jpeg
+  image: /images/gallery/calypso-storytelling.jpg
+
+- name: Family Storytelling
+  thumb: /images/gallery/thumbs/family-storytelling.jpeg
+  image: /images/gallery/family-storytelling.jpg
+
+- name: Kitchen Garden Cafe
+  thumb: /images/gallery/thumbs/kitchen-garden-cafe.jpeg
+  image: /images/gallery/kitchen-garden-cafe.jpg
+
+- name: Cath
+  thumb: /images/gallery/thumbs/headshot.jpeg
+  image: /images/gallery/headshot.jpg
+
+- name: Frog
+  thumb: /images/gallery/thumbs/frog.jpeg
+  image: /images/gallery/frog.jpg
+
+- name: Pirate Tales
+  thumb: /images/gallery/thumbs/pirate-stories.jpeg
+  image: /images/gallery/pirate-stories.jpg

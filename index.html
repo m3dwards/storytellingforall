@@ -8,7 +8,7 @@ layout: default
 
     {% capture intro-include %}{% include intro.md %}{% endcapture %}
     {{ intro-include | markdownify }}
-    
+
   </div>
 
   <div class="col span_3_of_7" id="intro-img">
@@ -49,50 +49,12 @@ layout: default
 
     <div class="group">
 
-      <div class="gallery-item">
-        <a href="/images/gallery/fiery-fables.jpg" title="Fiery Fables"><img src="/images/gallery/thumbs/fiery-fables.jpeg" alt=""></a>
-        <h3>Fiery Fables</h3>
-      </div>
-
-      <div class="gallery-item">
-        <a href="/images/gallery/winter-ghosts.jpg" title="Winter Ghosts"><img src="/images/gallery/thumbs/winter-ghosts.jpeg" alt=""></a>
-        <h3>Winter Ghosts</h3>
-      </div>
-
-      <div class="gallery-item">
-        <a href="/images/gallery/playdough-stories.jpg" title="Playdough Stories"><img src="/images/gallery/thumbs/playdough-stories.jpeg" alt=""></a>
-        <h3>Playdough Stories</h3>
-      </div>
-
-      <div class="gallery-item">
-        <a href="/images/gallery/calypso-storytelling.jpg" title="Calypso Storytelling"><img src="/images/gallery/thumbs/calypso-storytelling.jpeg" alt=""></a>
-        <h3>Calypso Storytelling</h3>
-      </div>
-
-      <div class="gallery-item">
-        <a href="/images/gallery/family-storytelling.jpg" title="Family Storytelling"><img src="/images/gallery/thumbs/family-storytelling.jpeg" alt=""></a>
-        <h3>Family Storytelling</h3>
-      </div>
-
-      <div class="gallery-item">
-        <a href="/images/gallery/kitchen-garden-cafe.jpg" title="Kitchen Garden Cafe"><img src="/images/gallery/thumbs/kitchen-garden-cafe.jpeg" alt=""></a>
-        <h3>Kitchen Garden Cafe</h3>
-      </div>
-
-      <div class="gallery-item">
-        <a href="/images/gallery/headshot.jpg" title="Cath"><img src="/images/gallery/thumbs/headshot.jpeg" alt=""></a>
-        <h3>Cath</h3>
-      </div>
-
-      <div class="gallery-item">
-        <a href="/images/gallery/frog.jpg" title="Frog"><img src="/images/gallery/thumbs/frog.jpeg" alt=""></a>
-        <h3>Frog</h3>
-      </div>
-
-      <div class="gallery-item">
-        <a href="/images/gallery/pirate-stories.jpg" title="Pirate Tales"><img src="/images/gallery/thumbs/pirate-stories.jpeg" alt=""></a>
-        <h3>Pirate Tales</h3>
-      </div>
+      {% for gallery-item in site.data.gallery %}
+        <div class="gallery-item">
+          <a href="{{ gallery-item.image }}" title="{{ gallery-item.name }}"><img src="{{ gallery-item.thumb }}" alt=""></a>
+          <h3>{{ gallery-item.name }}</h3>
+        </div>
+      {% endfor %}
 
     </div>
 
