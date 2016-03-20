@@ -32,7 +32,7 @@ published: true
       {% for site_page in site.pages %}
         {% if site_page.title %}
           <div class="service-box">
-              <h2><a href="{{ my_page.url | prepend: site.baseurl }}">{{ site_page.title }}</a></h2>
+              <h2><a href="{{ site_page.url | prepend: site.baseurl }}">{{ site_page.title }}</a></h2>
               <p>{{ site_page.description }}</p>
               <p><a href="{{ site_page.url | prepend: site.baseurl }}">Read more</a></p>
           </div>
