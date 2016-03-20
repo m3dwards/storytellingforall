@@ -6,6 +6,10 @@
   thumb: /images/gallery/thumbs/fiery-fables.jpeg
   image: /images/gallery/fiery-fables.jpg
 
+- name: Spooky Stories
+  thumb: /images/gallery/thumbs/spooky-story.jpeg
+  image: /images/gallery/spooky-story.jpg
+  
 - name: Winter Ghosts
   thumb: /images/gallery/thumbs/winter-ghosts.jpeg
   image: /images/gallery/winter-ghosts.jpg
@@ -37,4 +41,3 @@
 - name: Pirate Tales
   thumb: /images/gallery/thumbs/pirate-stories.jpeg
   image: /images/gallery/pirate-stories.jpg
-  
