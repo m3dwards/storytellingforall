@@ -1,24 +1,27 @@
-/*
 
-@mixin col6 {
-    width: 79%;
+/*  SECTIONS  ============================================================================= */
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
 }
 
-@mixin col4 {
-    width: 59%;
+/*  GROUPING  ============================================================================= */
+
+
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
 }
 
-.gallery-item {
-    @include col4;
-
-    @include media-query($cut-off-width) {
-        @include col6;
-        color:blue;
-        font-size: 30px;
-    }
-}
-
-*/
 
 .wrapper {
   width: 90%;
@@ -27,6 +30,20 @@
   @include media-query($cut-off-width) {
       width: 95%;
   }
+}
+
+#intro {
+	width: 56.45%;
+  display: block;
+	float:left;
+	margin: 1% 0 1% 0%;
+}
+
+#intro-img {
+  width: 41.94%;
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
 }
 
 .figure img {
