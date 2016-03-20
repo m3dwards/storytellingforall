@@ -1,14 +1,15 @@
 ---
 layout: page
 title: Storytelling for adults
-description: "Something about adults newline\n"
+description: Stuff for adults
 published: true
 ---
 
 
+
 # Storytelling for adults
 
-fhieoheih
+More stuff for adults
 
 This is the main page about adults
 
