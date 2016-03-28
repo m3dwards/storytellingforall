@@ -6,4 +6,11 @@ published: true
 ---
 
 
-This is the main page about writing children
+
+##Shakespeare for Schools##
+
+Coming soon
+
+
+
+
