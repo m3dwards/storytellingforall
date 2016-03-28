@@ -8,7 +8,7 @@ published: true
 
 
 
-# Storytelling for adults
+# Storytelling for Adults
 
 I am co-host of two storytelling clubs for adults: Stafford Knot Storytelling Club https://www.facebook.com/Stafford-Knot-Storytelling-Club-276679282468680/ and Lichfield Storytellers Tales in the Courtyard https://www.facebook.com/lichfieldstorytellers/ , and I am co-director of the Martineau Gardens Storytelling Festival. I have told stories to appreciative adult audiences in a variety of settings from festivals to cafes to church halls to private parties. Some of my stories are funny, some are thought-provoking, others are decidedly Grimm, but always they are well received. I can offer various ready-made storytelling shows, all based on traditional and folk tales:
 
