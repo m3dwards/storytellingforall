@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Children
-description: "Something about Children newline\n"
+description: "Whether in a school, a library or perhaps on a storywalk, children love stories!"
 published: true
 ---
 
