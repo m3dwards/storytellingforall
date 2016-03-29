@@ -28,4 +28,4 @@ If you have a particular theme in mind or an event that you would like to tie in
 **Story Workshops for Children**
 All my storytelling performances and workshops can lead to the children developing their skills in speaking and listening as well as their confidence and understanding of narrative. These in turn help to improve reading and writing. I can lead stand-alone storytelling workshops or a workshop can be combined with a performance in the same day.
 
-I also offer **Shakespeare for Schools:** see **Shakespeare**
+I also offer **Shakespeare for Schools:** see [Shakespeare for Schools](services/shakespeare-for-schools/)
