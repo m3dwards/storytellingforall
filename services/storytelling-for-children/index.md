@@ -9,7 +9,7 @@ published: true
 
 
 
-#Children
+# Children
 
 Whether at a family festival, a library event or in a school, I always include lots of opportunities for audience involvement and I often add rhythm, songs and story games to the programme. I am able to adapt my approach to suit the age and ability of the children (see [/services/Early-Years/](/services/Early-Years/) and [/services/Special-Needs/](/services/Special-Needs/)).
 Some of the programmes I can offer are:
