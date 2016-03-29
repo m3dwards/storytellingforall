@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Children
-description: "Whether in a school, a library or perhaps on a storywalk, children love stories!"
+description: "Whether in a school, a library or perhaps on a storywalk, children love stories, and the benefits are many"
 published: true
 ---
+
 
 
 
