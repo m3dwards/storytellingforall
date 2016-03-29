@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Storytelling for adults
-description: Stuff for adults
+description: Adults find storytelling both entertaining and relaxing
 published: true
 ---
+
 
 
 
@@ -31,4 +32,3 @@ Prepare to be chilled by creepy tales of ghosts, ghouls and all sorts of superna
 Be transported to frozen lands where miraculous legends are born. Hear some scorchingly good stories to warm you when the days are cold, and maybe meet a few winter spectres too.
 
 Do contact me to discuss your needs; I have a large repertoire of stories and I can adapt to most occasions.
-
