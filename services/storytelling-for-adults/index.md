@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Storytelling for adults
-description: Adults find storytelling both entertaining and relaxing
+description: "Adults find storytelling both entertaining and relaxing; people new to storytelling are often surprised at how much they enjoy it!"
 published: true
 ---
 
@@ -9,9 +9,12 @@ published: true
 
 
 
+
 # Storytelling for Adults
 
-I am co-host of two storytelling clubs for adults: Stafford Knot Storytelling Club https://www.facebook.com/Stafford-Knot-Storytelling-Club-276679282468680/ and Lichfield Storytellers Tales in the Courtyard https://www.facebook.com/lichfieldstorytellers/ , and I am co-director of the Martineau Gardens Storytelling Festival. I have told stories to appreciative adult audiences in a variety of settings from festivals to cafes to church halls to private parties. Some of my stories are funny, some are thought-provoking, others are decidedly Grimm, but always they are well received. I can offer various ready-made storytelling shows, all based on traditional and folk tales:
+I have told stories to appreciative adult audiences in a variety of settings from festivals to cafes to church halls to private parties. Some of my stories are funny, some are thought-provoking, others are decidedly Grimm, but always they are well received.
+I am co-host of two storytelling clubs for adults: Stafford Knot Storytelling Club https://www.facebook.com/Stafford-Knot-Storytelling-Club-276679282468680/ and Lichfield Storytellers Tales in the Courtyard https://www.facebook.com/lichfieldstorytellers/ , and I am co-director of the Martineau Gardens Storytelling Festival. 
+I can offer various ready-made storytelling shows, all based on traditional and folk tales:
 
 **The Pirate and the Devil’s Tongue**
 Four strangers meet at a remote Cornish inn. At the fireside, each tells a tale but each hides a secret and not all are sure of surviving the night. Pirate tales and songs entwine with eye-witness accounts to take you to a perilous time. A gripping and intriguing show.
