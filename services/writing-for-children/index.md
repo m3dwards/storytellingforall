@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Writing for Children
-description: null
+description: "Coming soon, Shakespeare for schools. Contact me for more information"
 published: true
 ---
+
 
 
 
