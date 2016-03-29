@@ -7,7 +7,8 @@ published: true
 
 
 
-#Special Needs
+
+# Special Needs
 
 I delight in adapting stories to include all children in a full and absorbing experience of narrative. I use a range of multi-sensory props as well as music and other sounds to offer the children a variety of routes to access the story in their own way. I always leave room for the children to make their own contributions to the story in whatever way they can.
 
