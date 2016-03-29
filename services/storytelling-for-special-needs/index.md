@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Special Needs
-description: "Something about special needs\n"
+description: "As a teacher in special schools, I used stories as a creative teaching technique with youngsters with SLD, PMLD and ASD"
 published: true
 ---
 
