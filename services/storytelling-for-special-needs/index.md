@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Special Needs
-description: "As a teacher in special schools, I used stories as a creative teaching technique with youngsters with SLD, PMLD and ASD"
+description: "As a teacher in special schools, I used stories for many years as a creative teaching technique with youngsters with SLD, PMLD and ASD"
 published: true
 ---
 
