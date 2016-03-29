@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Storytelling Workshops
-description: Workshops
+description: "I run workshops for school staff, storytellers and children"
 published: true
 ---
+
 
 
 
