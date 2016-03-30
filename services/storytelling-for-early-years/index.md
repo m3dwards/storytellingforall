@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Early years
-description: "Happily, I have a lot of experience of telling stories to and with the youngest children"
+description: "Small children can take great pleasure in a story session. Happily, I have a lot of experience of telling stories to and with the youngest children"
 published: true
 ---
+
 
 
 
