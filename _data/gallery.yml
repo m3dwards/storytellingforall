@@ -36,8 +36,4 @@
 
 - name: Nursery Stories
   thumb: /images/gallery/thumbs/frog.jpeg
-  image: /images/gallery/frog.jpg
-
-- name: Pirate Tales
-  thumb: /images/gallery/thumbs/pirate-stories.jpeg
-  image: /images/gallery/pirate-stories.jpg
+  image: /images/gallery/frog.
