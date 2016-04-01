@@ -10,6 +10,7 @@ published: true
 
 
 
+
 # Children
 
 Whether at a family festival, a library event or in a school, I always include lots of opportunities for audience involvement and I often add rhythm, songs and story games to the programme. I am able to adapt my approach to suit the age and ability of the children (see [Early Years](services/storytelling-for-early-years/) and [Special Needs](services/storytelling-for-special-needs/).
