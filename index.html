@@ -1,0 +1,79 @@
+---
+layout: default
+published: true
+---
+
+
+<div class="section group">
+
+  <div id="intro">
+
+    {% capture intro-include %}{% include intro.md %}{% endcapture %}
+    {{ intro-include | markdownify }}
+
+  </div>
+
+  <div id="intro-img">
+    <div class="figure">
+      <img src="/images/home-cath.jpeg" alt="Cath Edwards - Storytelling for all" />
+    </div>
+  </div>
+
+</div>
+
+<hr>
+
+<div class="section" id="home-services">
+
+    <h1>My services</h1>
+
+    <div class="group">
+
+      {% for site_page in site.pages %}
+        {% if site_page.title %}
+          <div class="service-box">
+              <h2><a href="{{ site_page.url | prepend: site.baseurl }}">{{ site_page.title }}</a></h2>
+              <p>{{ site_page.description }}</p>
+              <p><a href="{{ site_page.url | prepend: site.baseurl }}">Read more</a></p>
+          </div>
+        {% endif %}
+      {% endfor %}
+
+    </div>
+
+</div>
+
+<hr>
+
+<div class="section" id="gallery">
+
+    <h1>Gallery</h1>
+
+    <div class="group">
+
+      {% for gallery-item in site.data.gallery %}
+        <div class="gallery-item">
+          <a href="{{ gallery-item.image }}" title="{{ gallery-item.name }}"><img src="{{ gallery-item.thumb }}" alt=""></a>
+          <h3>{{ gallery-item.name }}</h3>
+        </div>
+      {% endfor %}
+
+    </div>
+
+</div>
+
+<div class="section" id="contact">
+
+    <h1>Contact</h1>
+  
+  	<p>Cath Edwards</p>
+
+  	<p>West Midlands</p>
+  
+    <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+
+    <p>Phone: {{ site.phone }}</p>
+
+    <p>&nbsp;</p>
+
+</div>
