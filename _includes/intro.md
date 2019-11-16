@@ -8,6 +8,6 @@ My repertoire is largely based on traditional and folk tales. I revel in sourcin
 
 I learnt a love of folklore and stories as a small child; as an adult I told stories to my own children, and, as a teacher, worked with children through story. I now tell stories to adult audiences, family audiences, very young children, school-age children and children and young people with special needs.
 
-I am co-host of [Lichfield Storytellers](https://www.facebook.com/lichfieldstorytellers/) and the Society for Storytelling Midlands representative. My book [West Midlands Folk Tales](https://www.thehistorypress.co.uk/publication/west-midlands-folk-tales/9780750985390/) is available from The History Press; Warwickshire Folk Tales is in preparation.Why not like my facebook page for news of my latest projects [here](https://www.facebook.com/cathedwardsstorytellerandauthor/?epa=SEARCH_BOX)
+I am co-host of [Lichfield Storytellers](https://www.facebook.com/lichfieldstorytellers/) and the Society for Storytelling Midlands representative. My book [West Midlands Folk Tales](https://www.thehistorypress.co.uk/publication/west-midlands-folk-tales/9780750985390/) is available from The History Press; Warwickshire Folk Tales is in preparation. Why not like my facebook page for news of my latest projects [here](https://www.facebook.com/cathedwardsstorytellerandauthor/?epa=SEARCH_BOX)
 
 Learn more [about my services](#home-services) or [get in touch](#contact) if you want to hire me.
