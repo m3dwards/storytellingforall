@@ -68,6 +68,12 @@
   }
 }
 
+#events {
+  .service-box {
+    margin-right: 25px;
+  }
+}
+
 .gallery-item {
   display: inline-block;
   *display: inline;
@@ -104,6 +110,7 @@
   #home-services, #events {
     .service-box {
         width: 48.4%;
+        margin-right: 0;
     }
   }
 }
@@ -135,6 +142,7 @@
   #home-services, #events {
     .service-box {
         width: 100%;
+        margin-right: 0;
     }
   }
 }
