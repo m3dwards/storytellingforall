@@ -29,7 +29,7 @@ published: true
 
     <div class="group">
 
-      {% for site_page in site.pages %}
+      {% for site_page in site.services %}
         {% if site_page.title %}
           <div class="service-box">
               <h2><a href="{{ site_page.url | prepend: site.baseurl }}">{{ site_page.title }}</a></h2>
@@ -44,6 +44,47 @@ published: true
 </div>
 
 <hr>
+
+<!-- Include the new section here -->
+
+<div class="section" id="events">
+
+  <h1>Events</h1>
+
+  <div class="group">
+    {% for site_page in site.events %}
+      {% if site_page.title %}
+        <div class="service-box">
+          <h2><a href="{{ site_page.url | prepend: site.baseurl }}">{{ site_page.title }}</a></h2>
+          <h3>{{ site_page.event }}</h3>
+          <p>{{ site_page.description }}</p>
+          <p><a href="{{ site_page.url | prepend: site.baseurl }}">Read more</a></p>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+  
+
+  <!-- <div class="group">
+    <div class="e-section">
+
+      <div class="e-section__item">
+        <div class="e-section__item--heading">
+          <h2>This is the title of the event</h2>
+        </div>
+        <div class="e-section__item--body">
+          <p>This is where we write more information about the event.</p>
+        </div>  
+      </div>
+
+    </div>
+  </div> -->
+
+</div>
+
+<hr>
+
+<!-- End of the new section -->
 
 <div class="section" id="gallery">
 
@@ -77,3 +118,20 @@ published: true
     <p>&nbsp;</p>
 
 </div>
+
+<!-- I added the following JS in order to open all links in a new tab. -->
+
+<script>
+
+var links = document.links;
+
+for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+   if (links[i].hostname != window.location.hostname) {
+       links[i].target = '_blank';
+   } 
+}
+
+</script>
+
+
+

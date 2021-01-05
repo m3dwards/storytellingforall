@@ -54,9 +54,11 @@
 
 .section {
   margin-top: 15px;
+  width: 75%; // Remember to make this responsive.
 }
 
-#home-services {
+#home-services,
+#events {
   .service-box {
       display: inline-block;
       *display: inline;
@@ -83,6 +85,12 @@
 
 /* responsive layout */
 
+@media only screen and (max-width: $content-width) {
+  .section {
+    width: 100%;
+  }
+}
+
 @include media-query($flow-gallery) {
 
   .gallery-item {
@@ -93,7 +101,7 @@
 
 @include media-query($flow-services) {
 
-  #home-services {
+  #home-services, #events {
     .service-box {
         width: 48.4%;
     }
@@ -124,7 +132,7 @@
     box-shadow: none;
   }
 
-  #home-services {
+  #home-services, #events {
     .service-box {
         width: 100%;
     }

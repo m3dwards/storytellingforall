@@ -1,0 +1,21 @@
+I"]<h2 id="caths-cupboard-of-customs">Cath’s Cupboard of Customs</h2>
+
+<h2 id="purchase-tickets">Purchase tickets</h2>
+
+<p>If you would like to attend this online event, please see the <a href="https://www.getawordinedgeways.co.uk/explore/online-concerts/2021-01-14.php">Get a Word in Edgeways website</a>.</p>
+
+<!-- I added the following JS in order to open all links in a new tab. -->
+
+<script>
+
+var links = document.links;
+
+for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+   if (links[i].hostname != window.location.hostname) {
+       links[i].target = '_blank';
+   } 
+}
+
+</script>
+
+:ET
