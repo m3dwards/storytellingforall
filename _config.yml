@@ -22,5 +22,8 @@ collections:
     output: true
   events:
     output: true
+    order: 
+      - Lichfield-11Jan2021.md
+      - Edgeways.md
 
 
