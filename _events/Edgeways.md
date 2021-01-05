@@ -13,7 +13,7 @@ Each month Cath’s Cupboard of Customs will highlight some traditions, lore and
 
 ## When and Where? 
 
-This event will be taking place online on Thursday 14 January, from 8-10 PM.  
+This event will be taking place online on Thursday 14 January, from 8 to 10 PM.  
 
 ## Purchase tickets
 
