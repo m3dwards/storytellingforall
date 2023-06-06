@@ -24,6 +24,15 @@
       ga('create', 'UA-75331870-1', 'auto');
       ga('send', 'pageview');
     
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on('init', user => {
+          if (!user) {
+            window.netlifyIdentity.on('login', () => {
+              document.location.href = '/admin/';
+            });
+          }
+        });
+      }
     </script>
     
   </body>
