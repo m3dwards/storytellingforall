@@ -53,11 +53,11 @@ published: true
     <h1>Contact</h1>
     <div class="group">
         <div class="form-container">
-            <form name="Contact" netlify>
+            <form name="Contact" method="POST" netlify>
                 <label for="name">Name</label>
-                <input type="text" id="name" />
+                <input type="text" id="name" name="name" />
                 <label for="email">Email</label>
-                <input type="email" id="email" />
+                <input type="email" id="email" name="email" />
                 <button type="submit">Send</button>
             </form>
         </div>
