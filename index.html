@@ -40,10 +40,12 @@ published: true
 
     <div class="group">
         {% for site_page in site.events %} {% if site_page.title %}
+        <p>{{site_page}}</p>
         <div class="service-box">
             <h2><a href="{{ site_page.url | prepend: site.baseurl }}">{{ site_page.title }}</a></h2>
             <h3>{{ site_page.event }}</h3>
             <p>{{ site_page.description }}</p>
+            <img src="{{site_page.image}}" />
             <p><a href="{{ site_page.url | prepend: site.baseurl }}">Read more</a></p>
         </div>
         {% endif %} {% endfor %}
