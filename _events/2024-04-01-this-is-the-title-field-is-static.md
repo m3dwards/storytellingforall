@@ -1,6 +1,6 @@
 ---
 layout: page
-title: This is the title field is Static
+title: This is the title field in Static
 description: "This is the description field in Static. "
 ---
 # This is a heading
