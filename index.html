@@ -39,7 +39,8 @@ published: true
         {% for site_page in site.events %} {% if site_page.title %}
         <div class="service-box">
             <h2><a href="{{ site_page.url | prepend: site.baseurl }}">{{ site_page.title }}</a></h2>
-            <img src="./images/brooke-cagle-jbwcenourcg-unsplash.jpg" />
+            <!-- <img src="./images/brooke-cagle-jbwcenourcg-unsplash.jpg" /> -->
+            <img src="{{site_page.image}}" />
             <p>{{ site_page.description }}</p>
             <p><a href="{{ site_page.url | prepend: site.baseurl }}">Read more</a></p>
         </div>

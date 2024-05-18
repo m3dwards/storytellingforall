@@ -11,3 +11,4 @@
 -   Redesign the site
 -   Have a designer redo the logo into an SVG
 -   Add book links
+-   Notification from Netlify when a form is submitted
