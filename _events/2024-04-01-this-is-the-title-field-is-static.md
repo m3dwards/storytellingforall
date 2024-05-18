@@ -2,6 +2,7 @@
 layout: page
 title: This is the title field in Static
 description: "This is the description field in Static. "
+image: /images/brooke-cagle-jbwcenourcg-unsplash.jpg
 ---
 # This is a heading
 
