@@ -1,26 +1,29 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
+
+// Only the main Sass file needs front matter (the dashes are enough)
+
 @charset "utf-8";
 
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-size: 16px;
 
 // Width of the content area
-$content-width:    1020px;
+$content-width: 1020px;
 
-$header-wider:     750px;
-$header-two-line:  600px;
-$header-narrow:    425px;
+$header-wider: 750px;
+$header-two-line: 600px;
+$header-narrow: 425px;
 
 $flow-intro: 650px;
 $flow-services: 750px;
 $flow-gallery: 600px;
 
-$cut-off-width:    480px;
+$cut-off-width: 480px;
 
-
+// Custom variables
+$mobile-large: 500px;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -35,12 +38,5 @@ $cut-off-width:    480px;
     }
 }
 
-
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "fonts",
-        "html5reset",
-        "base",
-        "layout",
-        "header"
-;
+@import "fonts", "html5reset", "base", "layout", "header", "landing", "nav";

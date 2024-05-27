@@ -3,21 +3,28 @@ layout: default
 published: true
 ---
 
-<div class="section group">
-    <div id="intro">
-        {% capture intro-include %}{% include intro.md %}{% endcapture %} {{ intro-include | markdownify }}
+<div class="landing">
+    <div class="intro" id="intro">
+        <!-- {% capture intro-include %}{% include intro.md %}{% endcapture %} {{ intro-include | markdownify }} -->
+        <h1>Cath Edwards</h1>
+        <h2>Storytelling for all</h2>
+        <p>
+            Laborum aliquip anim magna exercitation. Magna eiusmod aliqua cillum ipsum laborum nostrud exercitation
+            velit culpa. Laboris consectetur occaecat non ex elit aute exercitation laboris Lorem dolor officia culpa
+            commodo.
+        </p>
     </div>
 
-    <div id="intro-img">
-        <div class="figure">
-            <img src="/images/home-cath.jpeg" alt="Cath Edwards - Storytelling for all" />
+    <div class="intro-img" id="intro-img">
+        <div class="">
+            <img src="/images//marcos-paulo-prado-tcyW6Im5Uug-unsplash.jpg" alt="Cath Edwards - Storytelling for all" />
         </div>
     </div>
 </div>
 
-<hr />
+<!-- <hr /> -->
 
-<div class="section" id="home-services">
+<!-- <div class="section" id="home-services">
     <h1>My services</h1>
 
     <div class="group">
@@ -29,28 +36,30 @@ published: true
         </div>
         {% endif %} {% endfor %}
     </div>
-</div>
+</div> -->
 
-<hr />
+<!-- <hr /> -->
 
-<div class="section" id="events">
+<!-- <div class="section" id="events">
     <h1>Events</h1>
     <div class="group">
         {% for site_page in site.events %} {% if site_page.title %}
         <div class="service-box">
-            <h2><a href="{{ site_page.url | prepend: site.baseurl }}">{{ site_page.title }}</a></h2>
-            <!-- <img src="./images/brooke-cagle-jbwcenourcg-unsplash.jpg" /> -->
-            <img src="{{site_page.image}}" />
+            <h2><a href="{{ site_page.url | prepend: site.baseurl }}">{{ site_page.title }}</a></h2> -->
+
+<!-- <img src="./images/brooke-cagle-jbwcenourcg-unsplash.jpg" /> -->
+
+<!-- <img src="{{site_page.image}}" />
             <p>{{ site_page.description }}</p>
             <p><a href="{{ site_page.url | prepend: site.baseurl }}">Read more</a></p>
         </div>
         {% endif %} {% endfor %}
     </div>
-</div>
+</div> -->
 
-<hr />
+<!-- <hr /> -->
 
-<div class="section" id="contact">
+<!-- <div class="section" id="contact">
     <h1>Contact</h1>
     <div class="group">
         <div class="form-container">
@@ -63,9 +72,9 @@ published: true
             </form>
         </div>
     </div>
-</div>
+</div> -->
 
-<hr />
+<!-- <hr /> -->
 
 <!-- <div class="section" id="gallery">
     <h1>Gallery</h1>
@@ -82,7 +91,7 @@ published: true
     </div>
 </div> -->
 
-<div class="section" id="contact">
+<!-- <div class="section" id="contact">
     <h1>Contact</h1>
 
     <p>Cath Edwards</p>
@@ -94,7 +103,7 @@ published: true
     <p>Phone: {{ site.phone }}</p>
 
     <p>&nbsp;</p>
-</div>
+</div> -->
 
 <!-- I added the following JS in order to open all links in a new tab. -->
 

@@ -10,20 +10,20 @@ title: Story Telling For All
 email: "cath@storytellingforall.co.uk"
 phone: "07816061625"
 description: > # this means to ignore newlines until "baseurl:"
-  Cath Edwards is a versatile and skilled professional storyteller who tells to adults, children and those with special needs. She has a great variety of story sets on the tip of her tongue, including tales of Shakespeare plays
+    Cath Edwards is a versatile and skilled professional storyteller who tells to adults, children and those with special needs. She has a great variety of story sets on the tip of her tongue, including tales of Shakespeare plays
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://storytellingforall.co.uk" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
 
+# sass:
+
 collections:
-  services:
-    output: true
-  events:
-    output: true
-    order: 
-      - Lichfield-11Jan2021.md
-      - Edgeways.md
-
-
+    services:
+        output: true
+    events:
+        output: true
+        order:
+            - Lichfield-11Jan2021.md
+            - Edgeways.md

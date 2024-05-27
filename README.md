@@ -2,7 +2,7 @@
 
 ## Doing
 
--   Add form submission capability
+-   Redesign homepage
 
 ## To do
 

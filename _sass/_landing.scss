@@ -1,0 +1,20 @@
+.landing {
+    height: calc(100vh - 82px);
+    width: 100%;
+    display: flex;
+
+    .intro {
+        width: 50%;
+        padding: 1rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .intro-img {
+        width: 50%;
+        padding: 1rem 1rem;
+        display: flex;
+        align-items: center;
+    }
+}
