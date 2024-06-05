@@ -1,8 +1,20 @@
-const menu = document.querySelector("[data-hamburger-menu]");
+const hamburger = document.querySelector("[data-hamburger-menu]");
+const mobileMenu = document.querySelector("[data-mobile-menu]");
+const overlay = document.querySelector("[data-overlay]");
+let menuIsOpen = false;
 
-if (menu) {
-    menu.addEventListener("click", () => {
-        console.log("this is the menu click event");
-        // Show/hide the mobile menu: select the mobile menu element, add/remove the show/hide class
+if (hamburger && mobileMenu && overlay) {
+    hamburger.addEventListener("click", () => {
+        if (!menuIsOpen) {
+            hamburger.classList.add("open");
+            mobileMenu.classList.remove("hidden");
+            overlay.classList.add("visible");
+            menuIsOpen = true;
+        } else {
+            hamburger.classList.remove("open");
+            mobileMenu.classList.add("hidden");
+            overlay.classList.remove("visible");
+            menuIsOpen = false;
+        }
     });
 }
