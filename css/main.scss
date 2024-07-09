@@ -39,4 +39,4 @@ $mobile-large: 500px;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "fonts", "html5reset", "base", "layout", "header", "landing", "nav";
+@import "fonts", "html5reset", "base", "layout", "header", "landing", "nav", "settings", "mixins";

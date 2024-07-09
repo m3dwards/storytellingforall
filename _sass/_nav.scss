@@ -6,6 +6,10 @@ nav {
     display: flex;
     border-bottom: solid 1px lightgray;
 
+    @media (max-width: $large-tablet) {
+        padding: 0 2rem;
+    }
+
     .nav-container {
         width: 100%;
         max-width: 1500px;
@@ -30,6 +34,7 @@ nav {
             li {
                 border-bottom: solid 1.5px transparent;
                 transition: border 0.75s ease;
+                list-style: none;
 
                 &:hover {
                     border-bottom: solid 1.5px #3b3b3b;
