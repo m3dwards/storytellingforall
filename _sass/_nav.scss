@@ -6,9 +6,9 @@ nav {
     display: flex;
     border-bottom: solid 1px lightgray;
 
-    @media (max-width: $large-tablet) {
-        padding: 0 2rem;
-    }
+    // @media (max-width: $large-tablet) {
+    //     padding: 0 2rem;
+    // }
 
     .nav-container {
         width: 100%;
