@@ -2,7 +2,7 @@
 
 ## Doing
 
--   Redesign homepage
+-   Nav styles
 
 ## To do
 
