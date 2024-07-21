@@ -57,10 +57,11 @@ nav {
 
         .burger-container {
             display: none;
-            z-index: 110;
             height: 2rem;
             width: 2rem;
             place-items: center;
+            z-index: 130;
+            // border: solid 1px whitesmoke;
 
             @media (max-width: $tablet-medium) {
                 display: grid;
@@ -71,6 +72,24 @@ nav {
                 background-color: whitesmoke;
                 height: 0.1rem;
                 width: 100%;
+                opacity: 1;
+                visibility: visible;
+                transition: all 0.75s ease;
+            }
+
+            &.open {
+                span:first-child {
+                    transform: translateY(10.75px) rotate(45deg);
+                }
+
+                span:nth-child(2) {
+                    opacity: 0;
+                    visibility: hidden;
+                }
+
+                span:last-child {
+                    transform: translateY(-10.75px) rotate(-45deg);
+                }
             }
         }
 

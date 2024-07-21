@@ -33,9 +33,17 @@
         flex-direction: column;
         justify-content: center;
         z-index: 100;
+        opacity: 1;
+        visibility: visible;
+        transition: all 0.75s ease; // all
 
         @media (max-width: $tablet-medium) {
             justify-content: flex-end;
+        }
+
+        &.not-visible {
+            opacity: 0;
+            visibility: hidden;
         }
 
         h1,
