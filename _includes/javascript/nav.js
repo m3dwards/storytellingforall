@@ -30,5 +30,3 @@ if (hamburger && mobileMenu && overlay) {
         closeMobileMenu();
     });
 }
-
-// Style the mobile menu

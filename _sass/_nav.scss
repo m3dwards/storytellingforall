@@ -50,7 +50,7 @@ nav {
                 margin-right: 1rem;
             }
 
-            @media (max-width: $mobile-large) {
+            @media (max-width: $tablet-medium) {
                 display: none;
             }
         }
@@ -58,9 +58,19 @@ nav {
         .burger-container {
             display: none;
             z-index: 110;
+            height: 2rem;
+            width: 2rem;
+            place-items: center;
 
-            @media (max-width: $mobile-large) {
+            @media (max-width: $tablet-medium) {
+                display: grid;
+            }
+
+            span {
                 display: block;
+                background-color: whitesmoke;
+                height: 0.1rem;
+                width: 100%;
             }
         }
 
@@ -69,10 +79,10 @@ nav {
             top: 50%;
             left: 50%;
             translate: -50% -50%;
-            z-index: 110;
+            z-index: 130;
             opacity: 1;
             visibility: visible;
-            // transition: opacity 0.75s ease;
+            transition: all 0.75s ease; // // The 'all' property might be causing the device/window change problem
 
             &.not-visible {
                 opacity: 0;
@@ -80,12 +90,13 @@ nav {
             }
 
             li {
-                margin-bottom: 1rem;
+                margin-bottom: 1.5rem;
                 list-style: none;
 
                 a {
                     color: whitesmoke;
                     font-size: 2.5rem;
+                    text-decoration: none;
                 }
             }
         }
@@ -101,8 +112,8 @@ nav {
     background-color: rgba(0, 0, 0, 0.8);
     opacity: 0;
     visibility: hidden;
-    z-index: 100;
-    transition: opacity 0.75s ease;
+    z-index: 120;
+    transition: all 0.75s ease; // The 'all' property is causing the device/window change problem
 
     &.visible {
         opacity: 1;

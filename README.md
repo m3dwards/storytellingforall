@@ -2,7 +2,7 @@
 
 ## Doing
 
--   Nav styles
+-   Main landing styles
 
 ## To do
 

@@ -3,12 +3,46 @@
     width: 100%;
     display: flex;
 
+    @media (max-width: $tablet-medium) {
+        background-image: url("/images/marcos-paulo-prado-tcyW6Im5Uug-unsplash.jpg");
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+    }
+
+    .mobile-landing-overlay {
+        display: none;
+
+        @media (max-width: $tablet-medium) {
+            display: block;
+            background-color: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+        }
+    }
+
     .intro {
         width: 50%;
         padding: 1rem 1rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        z-index: 100;
+
+        @media (max-width: $tablet-medium) {
+            justify-content: flex-end;
+        }
+
+        h1,
+        h2,
+        p {
+            color: whitesmoke;
+        }
     }
 
     .intro-img {
@@ -16,5 +50,9 @@
         padding: 1rem 1rem;
         display: flex;
         align-items: center;
+
+        @media (max-width: $tablet-medium) {
+            display: none;
+        }
     }
 }
