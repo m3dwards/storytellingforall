@@ -43,4 +43,4 @@ $large-mobile: 500px;
 $large-tablet: 800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "fonts", "html5reset", "base", "layout", "header", "landing", "nav", "settings", "mixins";
+@import "fonts", "html5reset", "base", "layout", "header", "landing", "nav";
