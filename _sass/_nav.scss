@@ -4,7 +4,7 @@ nav {
     height: 6rem;
     padding: 0 4rem;
     display: flex;
-    border-bottom: solid 1px lightgray;
+    // border-bottom: solid 1px lightgray;
 
     @media (max-width: $large-tablet) {
         padding: 0 2rem;
@@ -61,7 +61,6 @@ nav {
             width: 2rem;
             place-items: center;
             z-index: 130;
-            // border: solid 1px whitesmoke;
 
             @media (max-width: $tablet-medium) {
                 display: grid;
@@ -69,7 +68,7 @@ nav {
 
             span {
                 display: block;
-                background-color: whitesmoke;
+                background-color: #3b3b3b;
                 height: 0.1rem;
                 width: 100%;
                 opacity: 1;
@@ -78,6 +77,10 @@ nav {
             }
 
             &.open {
+                span {
+                    background-color: whitesmoke;
+                }
+
                 span:first-child {
                     transform: translateY(10.75px) rotate(45deg);
                 }
@@ -128,7 +131,7 @@ nav {
     left: 0;
     height: 100vh;
     width: 100vw;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.85);
     opacity: 0;
     visibility: hidden;
     z-index: 120;

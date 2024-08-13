@@ -1,70 +1,55 @@
-.landing {
-    height: calc(100vh - 82px);
-    width: 100%;
-    display: flex;
+[data-landing-section] {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1020px;
 
-    @media (max-width: $tablet-medium) {
-        background-image: url("/images/marcos-paulo-prado-tcyW6Im5Uug-unsplash.jpg");
-        background-size: cover;
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-    }
-
-    .mobile-landing-overlay {
-        display: none;
-
-        @media (max-width: $tablet-medium) {
-            display: block;
-            background-color: rgba(0, 0, 0, 0.5);
-            position: absolute;
-            top: 0;
-            left: 0;
-            height: 100%;
-            width: 100%;
-        }
-    }
-
-    .intro {
-        width: 50%;
-        padding: 1rem 1rem;
+    .landing {
+        height: calc(100vh - 82px);
+        width: 100%;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        z-index: 100;
-        opacity: 1;
-        visibility: visible;
-        transition: all 0.75s ease; // all
 
         @media (max-width: $tablet-medium) {
-            justify-content: flex-end;
+            flex-direction: column;
+            justify-content: space-evenly;
         }
 
-        &.not-visible {
-            opacity: 0;
-            visibility: hidden;
-        }
-
-        h1,
-        h2,
-        p {
-            color: #3b3b3b;
+        .intro {
+            width: 50%;
+            padding: 1rem 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            z-index: 100;
+            opacity: 1;
+            visibility: visible;
+            transition: all 0.75s ease; // all
 
             @media (max-width: $tablet-medium) {
-                color: whitesmoke;
+                width: 100%;
+            }
+
+            &.not-visible {
+                opacity: 0;
+                visibility: hidden;
+            }
+
+            h1,
+            h2,
+            p {
+                color: #3b3b3b;
             }
         }
-    }
 
-    .intro-img {
-        width: 50%;
-        padding: 1rem 1rem;
-        display: flex;
-        align-items: center;
+        .intro-img {
+            width: 50%;
+            padding: 1rem 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
-        @media (max-width: $tablet-medium) {
-            display: none;
+            @media (max-width: $tablet-medium) {
+                width: 100%;
+            }
         }
     }
 }
