@@ -1,22 +1,22 @@
 const hamburger = document.querySelector("[data-hamburger-menu]");
 const mobileMenu = document.querySelector("[data-mobile-menu]");
-const landingText = document.querySelector(".intro");
 const overlay = document.querySelector("[data-overlay]");
 let menuIsOpen = false;
 
-if (hamburger && mobileMenu && overlay && landingText) {
+if (hamburger && mobileMenu && overlay) {
     function openMobileMenu() {
+        // Turn off scroll when the user clicks on the menu
+        // If necessary, scroll to the top of the page first
         hamburger.classList.add("open");
         mobileMenu.classList.remove("not-visible");
-        // andingText.classList.add("not-visible");
         overlay.classList.add("visible");
         menuIsOpen = true;
     }
 
     function closeMobileMenu() {
+        // Re-enable scroll
         hamburger.classList.remove("open");
         mobileMenu.classList.add("not-visible");
-        // landingText.classList.remove("not-visible");
         overlay.classList.remove("visible");
         menuIsOpen = false;
     }

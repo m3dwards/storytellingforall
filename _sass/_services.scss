@@ -1,8 +1,11 @@
-[data-about-section] {
+[data-services-section] {
+    height: 100vh;
     width: 100%;
-    background-color: #f2f2f2;
+    // margin: 0 auto;
+    // max-width: 1020px;
+    background-color: white;
 
-    .about-section-container {
+    .services-section-container {
         width: 90%;
         padding: 5rem 1rem;
         margin: 0 auto;

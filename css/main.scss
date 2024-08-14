@@ -39,8 +39,10 @@ $tablet-medium: 750px;
 }
 
 // Breakpoints
+$small-mobile: 350px;
+$medium-mobile: 400px;
 $large-mobile: 500px;
 $large-tablet: 800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "fonts", "html5reset", "base", "layout", "header", "landing", "nav", "about";
+@import "fonts", "html5reset", "base", "layout", "header", "landing", "nav", "about", "services", "contact";

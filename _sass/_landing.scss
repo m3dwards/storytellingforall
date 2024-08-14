@@ -1,12 +1,21 @@
 [data-landing-section] {
-    width: 90%;
-    margin: 0 auto;
-    max-width: 1020px;
+    height: calc(100vh - 96px);
+    width: 100%;
+    // margin: 0 auto;
+    // max-width: 1020px;
+    background-color: white;
 
-    .landing {
-        height: calc(100vh - 82px);
-        width: 100%;
+    .landing-section-container {
+        height: 100%;
+        width: 90%;
+        margin: 0 auto;
+        padding: 0 1rem;
         display: flex;
+
+        @media (max-width: $medium-mobile) {
+            width: 95%;
+            padding: 0 0.5rem;
+        }
 
         @media (max-width: $tablet-medium) {
             flex-direction: column;
@@ -15,7 +24,7 @@
 
         .intro {
             width: 50%;
-            padding: 1rem 1rem;
+            // padding: 1rem 1rem;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -42,7 +51,7 @@
 
         .intro-img {
             width: 50%;
-            padding: 1rem 1rem;
+            // padding: 1rem 1rem;
             display: flex;
             align-items: center;
             justify-content: center;
