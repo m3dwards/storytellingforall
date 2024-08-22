@@ -2,11 +2,13 @@
 
 ## Doing
 
--   Main landing styles
+-   Build books section
 
 ## To do
 
+-   Write copy
 -   Expand on the CMS capability
--   Redesign the site
 -   Have a designer redo the logo into an SVG
--   Add book links
+-   Add books section
+-   Add quotes section
+-   Delete the unused code

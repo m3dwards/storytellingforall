@@ -1,15 +1,12 @@
 [data-contact-section] {
-    height: 100vh;
     width: 100%;
-    // margin: 0 auto;
-    // max-width: 1020px;
-    background-color: darkgrey;
+    background-color: #f2f2f2;
 
-    .about-section-container {
+    .contact-section-container {
         width: 90%;
-        padding: 1rem 1rem;
+        padding: 5rem 1rem;
         margin: 0 auto;
-        max-width: 1020px;
+        max-width: 800px;
 
         @media (max-width: $medium-mobile) {
             width: 95%;

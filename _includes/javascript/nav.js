@@ -1,12 +1,13 @@
 const hamburger = document.querySelector("[data-hamburger-menu]");
 const mobileMenu = document.querySelector("[data-mobile-menu]");
 const overlay = document.querySelector("[data-overlay]");
+const mobileMenuItems = document.querySelectorAll("[data-mobile-menu-item]");
 let menuIsOpen = false;
 
-if (hamburger && mobileMenu && overlay) {
+if (hamburger && mobileMenu && overlay && mobileMenuItems) {
     function openMobileMenu() {
-        // Turn off scroll when the user clicks on the menu
-        // If necessary, scroll to the top of the page first
+        // document.body.scrollTo(0, 0); // There is a method that scrolls to the top of the page. This ain't it.
+        document.body.style.overflow = "hidden";
         hamburger.classList.add("open");
         mobileMenu.classList.remove("not-visible");
         overlay.classList.add("visible");
@@ -14,7 +15,7 @@ if (hamburger && mobileMenu && overlay) {
     }
 
     function closeMobileMenu() {
-        // Re-enable scroll
+        document.body.style.overflow = "auto";
         hamburger.classList.remove("open");
         mobileMenu.classList.add("not-visible");
         overlay.classList.remove("visible");
@@ -31,5 +32,11 @@ if (hamburger && mobileMenu && overlay) {
 
     overlay.addEventListener("click", () => {
         closeMobileMenu();
+    });
+
+    mobileMenuItems.forEach((item) => {
+        item.addEventListener("click", () => {
+            closeMobileMenu();
+        });
     });
 }

@@ -1,8 +1,6 @@
 [data-landing-section] {
     height: calc(100vh - 96px);
     width: 100%;
-    // margin: 0 auto;
-    // max-width: 1020px;
     background-color: white;
 
     .landing-section-container {
@@ -11,6 +9,7 @@
         margin: 0 auto;
         padding: 0 1rem;
         display: flex;
+        max-width: 1000px;
 
         @media (max-width: $medium-mobile) {
             width: 95%;
@@ -24,7 +23,6 @@
 
         .intro {
             width: 50%;
-            // padding: 1rem 1rem;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -46,18 +44,22 @@
             h2,
             p {
                 color: #3b3b3b;
+
+                @media (min-width: $tablet-medium) and (max-width: 1000px) {
+                    max-width: 85%;
+                }
             }
         }
 
         .intro-img {
             width: 50%;
-            // padding: 1rem 1rem;
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: flex-end; // Check
 
             @media (max-width: $tablet-medium) {
                 width: 100%;
+                justify-content: center;
             }
         }
     }
