@@ -2,10 +2,11 @@
 
 ## Doing
 
--   Add events functionality
+-   Fix horizontal scroll bug
 
 ## To do
 
+-   Add events functionality
 -   Build books section
 -   Write copy
 -   Expand on the CMS capability

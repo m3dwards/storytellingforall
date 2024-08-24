@@ -3,6 +3,10 @@
     width: 100%;
     background-color: white;
 
+    @media (max-width: $large-mobile) {
+        height: 850px; // Mobile fixed height
+    }
+
     .landing-section-container {
         height: 100%;
         width: 90%;
@@ -18,7 +22,8 @@
 
         @media (max-width: $tablet-medium) {
             flex-direction: column;
-            justify-content: space-evenly;
+            // justify-content: space-evenly;
+            justify-content: center;
         }
 
         .intro {

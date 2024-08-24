@@ -1,5 +1,7 @@
 html {
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
 }
 
 * {
@@ -16,6 +18,9 @@ body {
     font-size: 16px;
     line-height: 25px;
     color: #3b3b3b;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; // This is not a good idea.
 }
 
 a {
