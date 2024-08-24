@@ -18,6 +18,19 @@ body {
     color: #3b3b3b;
 }
 
+a {
+    color: #009fb7;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    &:visited {
+        color: #009fb7;
+    }
+}
+
 /* Headers */
 h1,
 h2,
