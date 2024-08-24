@@ -1,0 +1,143 @@
+nav {
+    background-color: white;
+    width: 100%;
+    height: 6rem;
+    padding: 0 4rem;
+    display: flex;
+
+    @media (max-width: $large-tablet) {
+        padding: 0 2rem;
+    }
+
+    .nav-container {
+        width: 100%;
+        max-width: 1500px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-inline: auto;
+
+        h1 {
+            // Placeholder
+            cursor: pointer;
+        }
+
+        .header-logo {
+            margin-right: auto;
+            cursor: pointer;
+        }
+
+        .items-container {
+            display: flex;
+
+            li {
+                border-bottom: solid 1.5px transparent;
+                transition: border 0.75s ease;
+                list-style: none;
+
+                &:hover {
+                    border-bottom: solid 1.5px #3b3b3b;
+                }
+
+                a {
+                    color: #3b3b3b;
+                    text-decoration: none;
+                }
+            }
+
+            li:not(:last-child) {
+                margin-right: 1rem;
+            }
+
+            @media (max-width: $tablet-medium) {
+                display: none;
+            }
+        }
+
+        .burger-container {
+            display: none;
+            height: 2rem;
+            width: 2rem;
+            place-items: center;
+            z-index: 130;
+
+            @media (max-width: $tablet-medium) {
+                display: grid;
+            }
+
+            span {
+                display: block;
+                background-color: #3b3b3b;
+                height: 0.1rem;
+                width: 100%;
+                opacity: 1;
+                visibility: visible;
+                transition: all 0.75s ease;
+            }
+
+            &.open {
+                span {
+                    background-color: whitesmoke;
+                }
+
+                span:first-child {
+                    transform: translateY(10.75px) rotate(45deg);
+                }
+
+                span:nth-child(2) {
+                    opacity: 0;
+                    visibility: hidden;
+                }
+
+                span:last-child {
+                    transform: translateY(-10.75px) rotate(-45deg);
+                }
+            }
+        }
+
+        .mobile-menu {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            translate: -50% -50%;
+            z-index: 130;
+            opacity: 1;
+            visibility: visible;
+            transition: all 0.75s ease; // // The 'all' property might be causing the device/window change problem
+
+            &.not-visible {
+                opacity: 0;
+                visibility: hidden;
+            }
+
+            li {
+                margin-bottom: 1.5rem;
+                list-style: none;
+
+                a {
+                    color: whitesmoke;
+                    font-size: 2.5rem;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+[data-overlay] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.85);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 120;
+    transition: all 0.75s ease; // The 'all' property is causing the device/window change problem
+
+    &.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+}

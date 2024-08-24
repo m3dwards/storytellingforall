@@ -2,14 +2,10 @@
 layout: page
 title: Special Needs
 description: >-
-  As a teacher in special schools, I used stories for many years as a creative
-  teaching technique with youngsters with SLD, PMLD and ASD
+    As a teacher in special schools, I used stories for many years as a creative
+    teaching technique with youngsters with SLD, PMLD and ASD
 published: true
 ---
-
-
-
-
 
 # Special Needs
 
@@ -19,4 +15,4 @@ Stories can take place in a classroom, a larger room or hall, or in a sensory ro
 
 I have enjoyed a teaching career of over thirty years, working mainly with early years children and youngsters of all ages with severe learning difficulties (SLD), profound and multiple learning difficulties (PMLD) and autistic spectrum condition (ASC). I am an experienced Makaton signer and I am familiar with communication technology. I have trained staff countrywide in disability issues, and I also run training in storytelling for staff who work with people with SLD, PMLD and ASD, including at Birmingham University on the distance learning Special Needs course.
 
-With co-authors Martin Goodwin and Jennie Miller, I have published the book ‘Communicate with Me: A Resource to Enable Effective Communication and Involvement with People Who Have a Learning Disability’ [Communicate with Me](https://www.facebook.com/communicatewithme/)
+With co-authors Martin Goodwin and Jennie Miller, I have published the book ‘Communicate with Me: A Resource to Enable Effective Communication and Involvement with People Who Have a Learning Disability’ [Communicate with Me](https://www.facebook.com/communicatewithme/).

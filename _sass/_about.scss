@@ -1,0 +1,16 @@
+[data-about-section] {
+    width: 100%;
+    background-color: #f2f2f2;
+
+    .about-section-container {
+        width: 90%;
+        padding: 5rem 1rem;
+        margin: 0 auto;
+        max-width: 800px;
+
+        @media (max-width: $medium-mobile) {
+            width: 95%;
+            padding: 5rem 0.5rem;
+        }
+    }
+}

@@ -3,135 +3,245 @@ layout: default
 published: true
 ---
 
+<!-- 
+Basic home page structure: 
+- Landing
+- About
+- Services
+- Contact 
+-->
 
-<div class="section group">
-
-  <div id="intro">
-
-    {% capture intro-include %}{% include intro.md %}{% endcapture %}
-    {{ intro-include | markdownify }}
-
-  </div>
-
-  <div id="intro-img">
-    <div class="figure">
-      <img src="/images/home-cath.jpeg" alt="Cath Edwards - Storytelling for all" />
+<section data-landing-section>
+    <div class="landing-section-container">
+        <div class="intro" id="intro">
+            <h1>Cath Edwards</h1>
+            <h2>Storytelling for all</h2>
+            <p>
+                My name is Cath, and I am storyteller. I tell stories to adult audiences, family audiences, very young
+                children, school-age children, and children and young people with special needs.
+            </p>
+            <br />
+            <p>
+                My repertoire is largely based on traditional and folk tales. I revel in sourcing stories, making them
+                my own and passing them on so that my audiences can love them as much as I do.
+            </p>
+        </div>
+        <div class="intro-img" id="intro-img">
+            <div class="">
+                <img src="/images/home-cath.jpeg" alt="Cath Edwards" />
+            </div>
+        </div>
     </div>
-  </div>
+</section>
 
-</div>
+<section data-about-section id="about">
+    <div class="about-section-container">
+        <h2>About</h2>
+        <p>
+            I am co-host of
+            <a href="https://www.lichfieldstorytellers.co.uk/" target="_blank">Lichfield Storytellers</a> and the
+            <a href="https://www.sfs.org.uk/" target="_blank">Society for Storytelling</a> Midlands representative. My
+            books,
+            <a href="https://thehistorypress.co.uk/publication/west-midlands-folk-tales/" target="_blank"
+                >West Midlands Folk Tales</a
+            >
+            and
+            <a href="https://thehistorypress.co.uk/publication/warwickshire-folk-tales/" target="_blank"
+                >Warwickshire Folk Tales</a
+            >
+            are available from The History Press.
+        </p>
+        <br />
+        <p>
+            For news of my latest projects, why not like
+            <a href="https://www.facebook.com/cathedwardsstorytellerandauthor/" target="_blank">my facebook page</a>?
+        </p>
+        <br />
+        <p>If you would like to discuss a project, do not hesitate to get in touch.</p>
+    </div>
+</section>
 
-<hr>
+<!-- Quotes carousel section. Except 'quotes' isn't the right word. -->
 
-<div class="section" id="home-services">
+<section data-services-section id="services">
+    <div class="services-section-container">
+        <h2>Services</h2>
+        <p>I offer a variety of storytelling services:</p>
+        <br />
+        <h3>Storytelling for adults</h3>
+        <p>
+            Adults find storytelling both entertaining and relaxing; people new to storytelling are often surprised at
+            how much they enjoy it!
+        </p>
+        <br />
+        <p>
+            <a href="/services/storytelling-for-adults/index.html">
+                <p>Read more</p>
+            </a>
+        </p>
+        <br />
+        <h3>Children</h3>
+        <p>
+            Whether in a school, a library or perhaps on a storywalk, children love stories, and the benefits are many.
+        </p>
+        <br />
+        <p>
+            <a href="/services/storytelling-for-children/index.html">
+                <p>Read more</p>
+            </a>
+        </p>
+        <br />
+        <h3>Early years</h3>
+        <p>
+            Small children can take great pleasure in a story session. Happily, I have a lot of experience of telling
+            stories to and with the youngest children.
+        </p>
+        <br />
+        <p>
+            <a href="/services/storytelling-for-early-years/">
+                <p>Read more</p>
+            </a>
+        </p>
+        <br />
+        <h3>Special needs</h3>
+        <p>
+            As a teacher in special schools, I used stories for many years as a creative teaching technique with
+            youngsters with SLD, PMLD, and ASD.
+        </p>
+        <br />
+        <p>
+            <a href="/services/storytelling-for-special-needs/index.html">
+                <p>Read more</p>
+            </a>
+        </p>
+        <br />
+        <h3>Storytelling workshops</h3>
+        <p>
+            I run workshops that are informative, fun and packed with good ideas for school staff, storytellers, and
+            children.
+        </p>
+        <br />
+        <p>
+            <a href="/services/storytelling-workshops/index.html">
+                <p>Read more</p>
+            </a>
+        </p>
+        <br />
+        <p>
+            For more information on any of these services, or to enquire about a custom storytelling event, don't
+            hesitate to get in touch.
+        </p>
+    </div>
+</section>
 
+<!-- <section data-books-section id="books">
+    <div class="books-section-container">
+        <h2>Books</h2>
+        <p>
+            Aute nisi adipisicing amet dolor ex. Adipisicing ullamco culpa elit amet cupidatat esse. Nisi nostrud
+            occaecat nostrud ullamco quis.
+        </p>
+        <br />
+        <p>
+            <a href="">
+
+            </a>
+        </p>
+    </div>
+</section> -->
+
+<section data-contact-section id="contact">
+    <div class="contact-section-container">
+        <h2>Contact</h2>
+        <p>
+            If you would like hire me for any of my storytelling services, or if you would like more information about
+            any of the services that I provide, do get in touch.
+        </p>
+        <br />
+        <p>Or if you have a particular idea for an event that you would like to discuss further, let's talk.</p>
+        <br />
+        <p>Email is the best way to contact me: cath@storytellingforall.co.uk.</p>
+    </div>
+</section>
+
+<!-- <div class="section" id="home-services">
     <h1>My services</h1>
 
+    prettier-ignore
     <div class="group">
-
-      {% for site_page in site.services %}
-        {% if site_page.title %}
-          <div class="service-box">
-              <h2><a href="{{ site_page.url | prepend: site.baseurl }}">{{ site_page.title }}</a></h2>
-              <p>{{ site_page.description }}</p>
-              <p><a href="{{ site_page.url | prepend: site.baseurl }}">Read more</a></p>
-          </div>
-        {% endif %}
-      {% endfor %}
-
+        {% for site_page in site.services %} 
+            {% if site_page.title %}
+                <div class="service-box">
+                    <h2><a href="{{ site_page.url | prepend: site.baseurl }}">{{ site_page.title }}</a></h2>
+                    <p>{{ site_page.description }}</p>
+                    <p><a href="{{ site_page.url | prepend: site.baseurl }}">Read more</a></p>
+                </div>
+            {% endif %} 
+        {% endfor %}
     </div>
+</div> -->
 
-</div>
-
-<hr>
-
-<!-- Include the new section here -->
-
-<div class="section" id="events">
-
-  <h1>Events</h1>
-
-  <div class="group">
-    {% for site_page in site.events %}
-      {% if site_page.title %}
+<!-- <div class="section" id="events">
+    <h1>Events</h1>
+    <div class="group">
+        {% for site_page in site.events %} {% if site_page.title %}
         <div class="service-box">
-          <h2><a href="{{ site_page.url | prepend: site.baseurl }}">{{ site_page.title }}</a></h2>
-          <h3>{{ site_page.event }}</h3>
-          <p>{{ site_page.description }}</p>
-          <p><a href="{{ site_page.url | prepend: site.baseurl }}">Read more</a></p>
+            <h2><a href="{{ site_page.url | prepend: site.baseurl }}">{{ site_page.title }}</a></h2> -->
+
+<!-- <img src="./images/brooke-cagle-jbwcenourcg-unsplash.jpg" /> -->
+
+<!-- <img src="{{site_page.image}}" />
+            <p>{{ site_page.description }}</p>
+            <p><a href="{{ site_page.url | prepend: site.baseurl }}">Read more</a></p>
         </div>
-      {% endif %}
-    {% endfor %}
-  </div>
-  
-
-  <!-- <div class="group">
-    <div class="e-section">
-
-      <div class="e-section__item">
-        <div class="e-section__item--heading">
-          <h2>This is the title of the event</h2>
-        </div>
-        <div class="e-section__item--body">
-          <p>This is where we write more information about the event.</p>
-        </div>  
-      </div>
-
+        {% endif %} {% endfor %}
     </div>
-  </div> -->
+</div> -->
 
-</div>
+<!-- <hr /> -->
 
-<hr>
+<!-- <div class="section" id="contact">
+    <h1>Contact</h1>
+    <div class="group">
+        <div class="form-container">
+            <form name="Contact" method="POST" netlify>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" />
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" />
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+</div> -->
 
-<!-- End of the new section -->
+<!-- <hr /> -->
 
-<div class="section" id="gallery">
-
+<!-- <div class="section" id="gallery">
     <h1>Gallery</h1>
 
     <div class="group">
-
-      {% for gallery-item in site.data.gallery %}
+        {% for gallery-item in site.data.gallery %}
         <div class="gallery-item">
-          <a href="{{ gallery-item.image }}" title="{{ gallery-item.name }}"><img src="{{ gallery-item.thumb }}" alt=""></a>
-          <h3>{{ gallery-item.name }}</h3>
+            <a href="{{ gallery-item.image }}" title="{{ gallery-item.name }}"
+                ><img src="{{ gallery-item.thumb }}" alt=""
+            /></a>
+            <h3>{{ gallery-item.name }}</h3>
         </div>
-      {% endfor %}
-
+        {% endfor %}
     </div>
+</div> -->
 
-</div>
-
-<div class="section" id="contact">
-
+<!-- <div class="section" id="contact">
     <h1>Contact</h1>
-  
-  	<p>Cath Edwards</p>
 
-  	<p>West Midlands</p>
-  
+    <p>Cath Edwards</p>
+
+    <p>West Midlands</p>
+
     <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
 
     <p>Phone: {{ site.phone }}</p>
 
     <p>&nbsp;</p>
-
-</div>
-
-<!-- I added the following JS in order to open all links in a new tab. -->
-
-<script>
-
-var links = document.links;
-
-for (var i = 0, linksLength = links.length; i < linksLength; i++) {
-   if (links[i].hostname != window.location.hostname) {
-       links[i].target = '_blank';
-   } 
-}
-
-</script>
-
-
-
+</div> -->
